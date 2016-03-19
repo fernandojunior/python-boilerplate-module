@@ -1,3 +1,4 @@
+import pytest  # noqa
 import module_name
 
 

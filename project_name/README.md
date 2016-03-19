@@ -79,7 +79,7 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   $ coverage run -m py.test && coverage report --show-missing
   ```
 
-  You can also try build the project with `python setup.py sdist` that creates a directory called dist and builds a package to install with `pip install package.tar.gz`.
+  You can also try `python setup.py sdist` to [build](https://pythonhosted.org/setuptools/setuptools.html) a package and use with `pip install dist/package.tar.gz`.
 
 8. Stage the files for the first commit to your repository.
 
