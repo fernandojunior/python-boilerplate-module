@@ -14,8 +14,10 @@ The awesome project_name project.
 
 * Hello World:
 
-  ```sh
-  $ python module_name.py
+  ```python
+  >>> import module_name
+  >>> from module_name import hello_world
+  >>> print(hello_world)
   Hello World
   ```
 
