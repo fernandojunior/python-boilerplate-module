@@ -21,9 +21,9 @@ The awesome project_name project.
 
 ## Install
 
-TODO
+Download the project, [build](https://pythonhosted.org/setuptools/setuptools.html) a package `python setup.py sdist` and install it `pip install --user dist/*.tar.gz`.
 
-[//]: # (If you want to your users install the project using pip see the setup.py file)
+[//]: # (If you want to your users install the package from PYPI using pip see:)
 [//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/)
 [//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#packaging-your-project)
 [//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#uploading-your-project-to-pypi)
@@ -78,8 +78,6 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   $ tox
   $ coverage run -m py.test && coverage report --show-missing
   ```
-
-  You can also try `python setup.py sdist` to [build](https://pythonhosted.org/setuptools/setuptools.html) a package and use with `pip install dist/package.tar.gz`.
 
 8. Stage the files for the first commit to your repository.
 

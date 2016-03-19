@@ -7,12 +7,16 @@ For more information:
     http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#packaging-your-project
     http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#uploading-your-project-to-pypi
 """
-
 from setuptools import setup
+from pip.req import parse_requirements as parse
+
 
 # Read the README file
 with open("README.md") as f:
     README = f.read()
+
+# Parse a requirements file to string list
+requirements = lambda f: [str(i.req) for i in parse(f, session=False)]
 
 setup(
     name='project_name',
@@ -22,8 +26,9 @@ setup(
     url='https://github.com/github_username/project_name',
     license='MIT License',
     description='The awesome project_name project.',
-    py_modules=['module_name'],
     long_description=README,
+    py_modules=['module_name'],
+    install_requires=requirements('requirements.txt'),
     zip_safe=False,
     classifiers=[
         'Development Status :: 1 - Planning',
