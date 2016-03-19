@@ -25,9 +25,11 @@ TODO
 
 ## Developers
 
-Here's how to set up the `project_name` [repository](https://help.github.com/articles/creating-a-new-repository/) for local development.
+Here is how to set up the `project_name` [repository](https://help.github.com/articles/creating-a-new-repository/) for local development.
 
-1. If you are a [contributor](/CONTRIBUTING.md), fork the `project_name` repository on GitHub (optional for [collaborators](https://help.github.com/articles/permission-levels-for-a-user-account-repository/)).
+1. If you are a contributor, fork the `project_name` repository on GitHub (optional for [collaborators](https://help.github.com/articles/permission-levels-for-a-user-account-repository/)).
+
+  See `CONTRIBUTING.md` for more information.
 
 2. [Clone](https://help.github.com/articles/cloning-a-repository/) your repository locally.
 
@@ -61,7 +63,7 @@ Here's how to set up the `project_name` [repository](https://help.github.com/art
   $ git checkout -b name-of-your-fix-or-feature
   ```
 
-6. Make changes in your repository files (`module_name.py`, `tests.py`, `requirements.py`, etc.) locally.
+6. Make changes in your repository files (`module_name.py`, `tests.py`, `requirements*`, etc.) locally.
 
 7. When you are done making changes, check that your changes pass [flake8](https://flake8.readthedocs.org/), [pytest](http://pytest.org/), [tox](https://tox.readthedocs.org/) and [coverage.py](https://coverage.readthedocs.org/):
 
