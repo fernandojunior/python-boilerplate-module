@@ -2,17 +2,22 @@
 
 The awesome project_name project.
 
-  * Author: [@github_username](https://github.com/github_username/)
-  * GitHub repository: [project_name](https://github.com/github_username/project_name/)
-  * Free software: [The MIT License](/LICENSE)
+* Author: [@github_username](https://github.com/github_username/)
+* GitHub repository: [project_name](https://github.com/github_username/project_name/)
+* Free software: [The MIT License](/LICENSE)
 
 ## Features
 
-TODO
+* Hello World
 
 ## Examples
 
-TODO
+* Hello World:
+
+  ```sh
+  $ python module_name.py
+  Hello World
+  ```
 
 ## Install
 
@@ -94,8 +99,8 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
 8. [Push the changes](Push the changes in your local repository to GitHub.) in your local repository to GitHub.
 
   ```sh
-  git push origin master  # if you are the repository owner or collaborator
-  git push origin name-of-your-fix-or-feature  # if you are contributor
+  $ git push origin master  # if you are the repository owner or collaborator
+  $ git push origin name-of-your-fix-or-feature  # if you are contributor
   # Pushes the changes in your local repository up to the remote repository
   ```
 
