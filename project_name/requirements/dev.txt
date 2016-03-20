@@ -6,7 +6,7 @@ flake8==2.5.1
 # A mature full-featured Python testing tool.
 pytest==2.8.5
 
-# Auto builds and tests distributions in multiple Python versions using virtualenv.
+# Auto builds and tests distributions in multiple Python versions using virtualenvs.
 tox==2.3.1
 
 # Code coverage measurement.
