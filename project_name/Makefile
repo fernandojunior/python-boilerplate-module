@@ -12,15 +12,20 @@ export BROWSER_PYSCRIPT
 BROWSER := python -c '$$BROWSER_PYSCRIPT'
 
 help:
-	@echo 'clean - remove all Python, test and build artifacts'
-	@echo 'clean-pyc - remove Python file artifacts'
-	@echo 'clean-test - remove test and coverage artifacts'
-	@echo 'clean-build - remove build artifacts'
-	@echo 'lint - check code style with flake8'
-	@echo 'test - run tests quickly with the default Python'
-	@echo 'test-all - run tests on every Python version with tox'
-	@echo 'coverage - check code coverage quickly with the default Python'
-	@echo 'build - Build a distribution package'
+	@echo 'Usage: make [command]'
+	@echo 'Commands:'
+	@echo '  all          Run lint, test, test-all, coverage and clean-test commands.'
+	@echo '  clean        Remove all Python, test and build artifacts.'
+	@echo '  clean-pyc    Remove Python file artifacts.'
+	@echo '  clean-test   Remove test and coverage artifacts.'
+	@echo '  clean-build  Remove build artifacts.'
+	@echo '  lint         Check code style with flake8.'
+	@echo '  test         Run tests quickly with pytest.'
+	@echo '  test-all     Run tests in multiple Python versions with tox.'
+	@echo '  coverage     Code coverage measurement.'
+	@echo '  build        Build a distribution package with setuptools.'
+
+all: lint test test-all coverage clean-test
 
 clean: clean-pyc clean-test clean-build
 
@@ -64,6 +69,3 @@ build:
 	python setup.py sdist
 	# python setup.py bdist_wheel
 	ls -l dist
-
-
-# TODO install, virtualenv
