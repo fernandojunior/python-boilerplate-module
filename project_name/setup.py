@@ -1,5 +1,5 @@
 """
-Provides details about how to build and install the a package.
+Contains informations necessaries to build, release and install a distribution.
 
 For more information:
     https://pythonhosted.org/setuptools/setuptools.html

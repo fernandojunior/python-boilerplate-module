@@ -12,15 +12,15 @@ export BROWSER_PYSCRIPT
 BROWSER := python -c '$$BROWSER_PYSCRIPT'
 
 help:
-	@echo 'clean - remove all python, test and build artifacts'
+	@echo 'clean - remove all Python, test and build artifacts'
 	@echo 'clean-pyc - remove Python file artifacts'
 	@echo 'clean-test - remove test and coverage artifacts'
 	@echo 'clean-build - remove build artifacts'
-	@echo 'lint - check style with flake8'
+	@echo 'lint - check code style with flake8'
 	@echo 'test - run tests quickly with the default Python'
 	@echo 'test-all - run tests on every Python version with tox'
 	@echo 'coverage - check code coverage quickly with the default Python'
-	@echo 'build - create source packages'
+	@echo 'build - Build a distribution package'
 
 clean: clean-pyc clean-test clean-build
 
@@ -62,5 +62,8 @@ coverage:
 build:
 	# python setup.py egg_info
 	python setup.py sdist
-	python setup.py bdist_wheel
+	# python setup.py bdist_wheel
 	ls -l dist
+
+
+# TODO install, virtualenv
