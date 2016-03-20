@@ -23,7 +23,7 @@ The awesome project_name project.
 
 ## Install
 
-Download the project, build `python setup.py sdist` and install it `pip install --user dist/*.tar.gz`.
+Download, build `python setup.py sdist` and install `pip install --user dist/*.tar.gz` project_name.
 
 [//]: # (If you want to your users install the dist from PYPI using pip see:)
 [//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/)
