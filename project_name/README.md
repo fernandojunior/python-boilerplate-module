@@ -2,17 +2,11 @@
 
 The awesome project_name project.
 
-* Author: [@github_username](https://github.com/github_username/)
-* GitHub repository: [project_name](https://github.com/github_username/project_name/)
-* Free software: [The MIT License](/LICENSE)
-
 ## Features
 
 * Hello World
 
-## Examples
-
-* Hello World:
+## Usage
 
   ```python
   >>> import module_name
@@ -35,8 +29,6 @@ Download, build `python setup.py sdist` and install `pip install --user dist/*.t
 Here is how to set up the `project_name` [repository](https://help.github.com/articles/creating-a-new-repository/) for local development.
 
 1. If you are a contributor, fork the `project_name` repository on GitHub (optional for [collaborators](https://help.github.com/articles/permission-levels-for-a-user-account-repository/)).
-
-  See `CONTRIBUTING.md` for more information.
 
 2. [Clone](https://help.github.com/articles/cloning-a-repository/) your repository locally.
 
@@ -98,7 +90,7 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   # Commits the tracked changes and prepares them to be pushed to a remote repository.
   ```
 
-8. [Push the changes](Push the changes in your local repository to GitHub.) in your local repository to GitHub.
+8. [Push the changes](https://help.github.com/articles/pushing-to-a-remote/) in your local repository to GitHub.
 
   ```sh
   $ git push origin master  # if you are the repository owner or collaborator
@@ -108,6 +100,20 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
 
 9. If you are a contributor, submit a [pull request](https://help.github.com/articles/using-pull-requests/) through the GitHub.
 
-## Credits
+## Contributing
+
+See [CONTRIBUTING](/CONTRIBUTING.md).
+
+## License
+
+[![CC0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+The MIT License.
+
+-
+
+Copyright (c) 2016 [author_name](https://github.com/github_username/).
+
+-
 
 This project was created based on [python-boilerplate-module](https://github.com/fernandojunior/python-boilerplate-module) by [@fernandojunior](https://github.com/fernandojunior/).

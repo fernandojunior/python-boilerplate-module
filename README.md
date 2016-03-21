@@ -2,10 +2,6 @@
 
 A boilerplate to create a Python module based project. [Clone](https://help.github.com/articles/cloning-a-repository/   ) or [download](https://github.com/fernandojunior/python-boilerplate-module/archive/master.zip).
 
-* Author: [@fernandojunior](https://github.com/fernandojunior/)
-* GitHub repository: [python-boilerplate-module](https://github.com/fernandojunior/python-boilerplate-module)
-* Free software: [The MIT License](/LICENSE)
-
 ## Table of Contents
 
 * [Features](#features)
@@ -43,15 +39,15 @@ A boilerplate to create a Python module based project. [Clone](https://help.gith
 ```
 
 Below the purpose of each file:
-* CONTRIBUTING.md - Details about how project’s maintainers would like to receive contributions ([reference](https://guides.github.com/activities/contributing-to-open-source/)).
+* CONTRIBUTING.md - Details about how project owner would like to receive contributions ([reference](https://guides.github.com/activities/contributing-to-open-source/)).
 * LICENSE - Informs users and contributors what they can and can't do with the project ([reference](https://guides.github.com/activities/contributing-to-open-source/)).
-* Makefile - Defines commands to use with make, a build automation tool ([reference](https://en.wikipedia.org/wiki/Makefile)).
+* Makefile - Automates useful commands to use with make, a build automation tool ([reference](https://en.wikipedia.org/wiki/Makefile)).
 * MANIFEST.in - Adds extra resources in distributions as only modules and packages are included by default ([reference](https://pythonhosted.org/setuptools/setuptools.html)).
 * module_name.py - The core code of the project ([reference](https://docs.python.org/3/tutorial/modules.html)).
 * README.md - Details for the project on how to build, install, use and contribute to it ([reference](https://guides.github.com/activities/contributing-to-open-source/)).
 * requirements* - Contains the dependencies of the project to be installed using pip ([reference](https://pip.readthedocs.org/en/stable/user_guide/#requirements-files)).
 * setup.cfg - Configures some settings of the tools used in the project ([reference](https://docs.python.org/3/distutils/configfile.html)).
-* setup.py - Contains informations necessaries to build, release and install distributions ([reference](https://pythonhosted.org/setuptools/setuptools.html)).
+* setup.py - Contains information needed to build, release and install distributions ([reference](https://pythonhosted.org/setuptools/setuptools.html)).
 * tests.py - Provides some automated tests for the project module to run with pytest ([reference](http://pytest.org/)).
 * tox.ini - Defines test environments to run with tox ([reference](https://tox.readthedocs.org/en/latest/)).
 
@@ -80,3 +76,17 @@ You can use your preferred text editor or IDE to find the keywords. In [Sublime]
 * `virtualenv` - A tool to isolate a environment of a `project` and its `dependencies` from a Python installation.
 
 Other nice glossaries at [Python Documentation](https://docs.python.org/3/glossary.html), [Python Packaging User Guide](https://python-packaging-user-guide.readthedocs.org/en/latest/glossary/) and [Setuptools' Documentation](http://pythonhosted.org/setuptools/pkg_resources.html).
+
+## Contributing
+
+See [CONTRIBUTING](/CONTRIBUTING.md).
+
+## License
+
+[![CC0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+The MIT License.
+
+-
+
+Copyright (c) 2016 [Fernando Felix do Nascimento Junior](https://github.com/fernandojunior/).
