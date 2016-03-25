@@ -31,9 +31,7 @@ help:
 all: lint test test-all coverage clean-test
 
 build:
-	# python setup.py egg_info
-	python setup.py sdist
-	# python setup.py bdist_wheel
+	python setup.py egg_info sdist bdist_wheel
 	ls -l dist
 
 clean: clean-pyc clean-test clean-build
