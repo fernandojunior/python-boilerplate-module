@@ -23,17 +23,18 @@ help:
 	@echo '  coverage     Code coverage measurement.'
 	@echo '  deps         Install dependencies.'
 	@echo '  env          Create a isolated development environment with its dependencies.'
+	@echo '  install      Build and install a local dist package with pip.'
 	@echo '  lint         Check code style with flake8.'
 	@echo '  test         Run tests quickly with pytest.'
 	@echo '  test-all     Run tests in multiple Python versions with tox.'
 
-env:
-	virtualenv env && . env/bin/activate && make deps
-
-deps:
-	pip install -r requirements.txt
-
 all: lint test test-all coverage clean-test
+
+build:
+	# python setup.py egg_info
+	python setup.py sdist
+	# python setup.py bdist_wheel
+	ls -l dist
 
 clean: clean-pyc clean-test clean-build
 
@@ -56,6 +57,22 @@ clean-build:
 	find . -name '*.egg-info' -exec rm -fr {} +
 	find . -name '*.egg' -exec rm -f {} +
 
+coverage:
+	coverage erase
+	coverage run -m py.test
+	coverage report --show-missing
+	# coverage html
+	# $(BROWSER) htmlcov/index.html
+
+deps:
+	pip install -r requirements.txt
+
+env:
+	virtualenv env && . env/bin/activate && make deps
+install: build
+	pip install dist/*.tar.gz
+
+
 lint:
 	flake8 --show-source --verbose --count
 
@@ -64,16 +81,3 @@ test:
 
 test-all:
 	tox
-
-coverage:
-	coverage erase
-	coverage run -m py.test
-	coverage report --show-missing
-	# coverage html
-	# $(BROWSER) htmlcov/index.html
-
-build:
-	# python setup.py egg_info
-	python setup.py sdist
-	# python setup.py bdist_wheel
-	ls -l dist
