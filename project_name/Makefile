@@ -14,16 +14,24 @@ BROWSER := python -c '$$BROWSER_PYSCRIPT'
 help:
 	@echo 'Usage: make [command]'
 	@echo 'Commands:'
-	@echo '  all          Run lint, test, test-all, coverage and clean-test commands.'
+	@echo '  all          Run all test commands. '
+	@echo '  build        Build a distribution package with setuptools.'
 	@echo '  clean        Remove all Python, test and build artifacts.'
 	@echo '  clean-pyc    Remove Python file artifacts.'
 	@echo '  clean-test   Remove test and coverage artifacts.'
 	@echo '  clean-build  Remove build artifacts.'
+	@echo '  coverage     Code coverage measurement.'
+	@echo '  deps         Install dependencies.'
+	@echo '  env          Create a isolated development environment with its dependencies.'
 	@echo '  lint         Check code style with flake8.'
 	@echo '  test         Run tests quickly with pytest.'
 	@echo '  test-all     Run tests in multiple Python versions with tox.'
-	@echo '  coverage     Code coverage measurement.'
-	@echo '  build        Build a distribution package with setuptools.'
+
+env:
+	virtualenv env && . env/bin/activate && make deps
+
+deps:
+	pip install -r requirements.txt
 
 all: lint test test-all coverage clean-test
 
