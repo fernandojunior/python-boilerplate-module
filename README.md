@@ -39,6 +39,7 @@ A boilerplate to create a Python module based project. [Clone](https://help.gith
 ```
 
 Below the purpose of each file:
+
 * CONTRIBUTING.md - Details about how project owner would like to receive contributions ([reference](https://guides.github.com/activities/contributing-to-open-source/)).
 * LICENSE - Informs users and contributors what they can and can't do with the project ([reference](https://guides.github.com/activities/contributing-to-open-source/)).
 * Makefile - Automates useful commands to use with make, a build automation tool ([reference](https://en.wikipedia.org/wiki/Makefile)).
@@ -79,7 +80,7 @@ Other nice glossaries at [Python Documentation](https://docs.python.org/3/glossa
 
 ## Contributing
 
-See [CONTRIBUTING](/CONTRIBUTING.md).
+See [CONTRIBUTING](https://github.com/fernandojunior/python-boilerplate-module/CONTRIBUTING.md).
 
 ## License
 
