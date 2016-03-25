@@ -36,6 +36,13 @@ build:
 
 clean: clean-pyc clean-test clean-build
 
+clean-build:
+	rm -fr build/
+	rm -fr dist/
+	rm -fr .eggs/
+	find . -name '*.egg-info' -exec rm -fr {} +
+	find . -name '*.egg' -exec rm -f {} +
+
 clean-pyc:
 	find . -name '*.pyc' -exec rm -f {} +
 	find . -name '*.pyo' -exec rm -f {} +
@@ -47,13 +54,6 @@ clean-test:
 	rm -fr .tox/
 	rm -fr htmlcov/
 	rm -f .coverage
-
-clean-build:
-	rm -fr build/
-	rm -fr dist/
-	rm -fr .eggs/
-	find . -name '*.egg-info' -exec rm -fr {} +
-	find . -name '*.egg' -exec rm -f {} +
 
 coverage:
 	coverage erase
