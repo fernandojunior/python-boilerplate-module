@@ -63,7 +63,8 @@ coverage:
 	# $(BROWSER) htmlcov/index.html
 
 deps:
-	pip install -r requirements.txt
+	test -f requirements.txt && \
+	pip install -r requirements.txt || echo "requirements.txt doesn't exists"
 
 env:
 	virtualenv env && . env/bin/activate && make deps
