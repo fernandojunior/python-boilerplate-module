@@ -22,7 +22,7 @@ help:
 	@echo '  clean-test   Remove test and coverage artifacts.'
 	@echo '  coverage     Code coverage measurement.'
 	@echo '  deps         Install dependencies.'
-	@echo '  env          Create a isolated development environment with its dependencies.'
+	@echo '  env          Create an isolated development environment.'
 	@echo '  install      Build and install a local dist package with pip.'
 	@echo '  lint         Check code style with flake8.'
 	@echo '  test         Run tests quickly with pytest.'
@@ -67,9 +67,9 @@ deps:
 
 env:
 	virtualenv env && . env/bin/activate && make deps
+
 install: build
 	pip install dist/*.tar.gz
-
 
 lint:
 	flake8 --show-source --verbose --count
