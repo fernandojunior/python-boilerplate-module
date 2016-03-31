@@ -79,7 +79,7 @@ Other nice glossaries at [Python Documentation](https://docs.python.org/3/glossa
 
 ## Contributing
 
-See [CONTRIBUTING](https://github.com/fernandojunior/python-boilerplate-module/CONTRIBUTING.md).
+See [CONTRIBUTING](/CONTRIBUTING.md).
 
 ## License
 
