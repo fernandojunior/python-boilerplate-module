@@ -56,7 +56,6 @@ Below the purpose of each file:
 *Description of each keyword of the boilerplate.*
 
 * author_name - Full name of the author.
-* author_email - Author email address.
 * github_username - GitHub username.
 * project_name - Short name of your project using [slug style](https://en.wikipedia.org/wiki/Semantic_URL#Slug).
 * module_name - Name of the module using [PEP8 style](https://www.python.org/dev/peps/pep-0008/#package-and-module-names).
