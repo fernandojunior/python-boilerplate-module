@@ -6,6 +6,15 @@ The awesome project_name project.
 
 * Hello World
 
+## Install
+
+`pip install --user https://github.com/github_username/project_name/archive/master.zip`
+
+[//]: # (If you want to your users install the dist from PYPI using pip see:)
+[//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/)
+[//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#packaging-your-project)
+[//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#uploading-your-project-to-pypi)
+
 ## Usage
 
   ```python
@@ -14,15 +23,6 @@ The awesome project_name project.
   >>> print(hello_world)
   Hello World
   ```
-
-## Install
-
-Download, build `python setup.py sdist` and install `pip install --user dist/*.tar.gz` project_name.
-
-[//]: # (If you want to your users install the dist from PYPI using pip see:)
-[//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/)
-[//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#packaging-your-project)
-[//]: # (http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#uploading-your-project-to-pypi)
 
 ## Developers
 
@@ -86,7 +86,7 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
 7. Commit the files that you've staged in your local repository.
 
   ```sh
-  $ git commit -m "Your detailed description of your changes."
+  $ git commit -m 'Your detailed description of your changes.'
   # Commits the tracked changes and prepares them to be pushed to a remote repository.
   ```
 
