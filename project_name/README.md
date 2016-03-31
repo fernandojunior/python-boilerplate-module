@@ -17,7 +17,7 @@ The awesome project_name project.
 
 ## Usage
 
-  ```python
+  ```sh
   >>> import module_name
   >>> from module_name import hello_world
   >>> print(hello_world)
