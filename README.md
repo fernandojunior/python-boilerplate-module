@@ -49,7 +49,7 @@ Below the purpose of each file:
 * requirements* - Contains the dependencies of the project to be installed using pip [reference](https://pip.readthedocs.org/en/stable/user_guide/#requirements-files).
 * setup.cfg - Configures some settings of the tools used in the project [reference](https://docs.python.org/3/distutils/configfile.html).
 * setup.py - Contains information needed to build, release and install distributions [reference](https://pythonhosted.org/setuptools/setuptools.html).
-* tests.py - Provides some automated tests for the project module to run with pytest [reference](http://pytest.org/).
+* tests.py - Provides some automated tests to run with pytest [reference](http://pytest.org/).
 * tox.ini - Defines test environments to run with tox [reference](https://tox.readthedocs.org/en/latest/).
 
 ## Keywords
