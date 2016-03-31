@@ -30,7 +30,7 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   $ git checkout -b name-of-your-fix-or-feature
   ```
 
-5. Make changes in your repository files (`script_name.py`, `tests.py`, `requirements*`, etc.) locally.
+5. Make changes in your repository files locally.
 
 6. When you are done making changes, check that your changes pass [flake8](https://flake8.readthedocs.org/), [pytest](http://pytest.org/), [tox](https://tox.readthedocs.org/) and [coverage.py](https://coverage.readthedocs.org/):
 
