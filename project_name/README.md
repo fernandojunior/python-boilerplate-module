@@ -36,18 +36,7 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   $ git clone git@github.com:your_username/project_name.git
   ```
 
-3. Make sure your system is up to date.
-
-  ```sh
-  # Example for Ubuntu users.
-  $ apt-get update
-  $ apt-get upgrade
-  $ apt-get install -y build-essential
-  $ apt-get install -y python2-dev python2-software-properties  # or
-  $ apt-get install -y python3-dev python3-software-properties
-  ```
-
-4.  Configure your repository for local development with [virtualenv](https://virtualenv.pypa.io/) and [pip](https://pip.pypa.io/).
+3.  Configure your repository for local development with [virtualenv](https://virtualenv.pypa.io/) and [pip](https://pip.pypa.io/).
 
   ```sh
   $ cd project_name/
@@ -56,15 +45,15 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   $ pip install -r requirements/dev.txt
   ```
 
-5. If you are a contributor, create a branch for local development.
+4. If you are a contributor, create a branch for local development.
 
   ```sh
   $ git checkout -b name-of-your-fix-or-feature
   ```
 
-6. Make changes in your repository files (`module_name.py`, `tests.py`, `requirements*`, etc.) locally.
+5. Make changes in your repository files (`module_name.py`, `tests.py`, `requirements*`, etc.) locally.
 
-7. When you are done making changes, check that your changes pass [flake8](https://flake8.readthedocs.org/), [pytest](http://pytest.org/), [tox](https://tox.readthedocs.org/) and [coverage.py](https://coverage.readthedocs.org/):
+6. When you are done making changes, check that your changes pass [flake8](https://flake8.readthedocs.org/), [pytest](http://pytest.org/), [tox](https://tox.readthedocs.org/) and [coverage.py](https://coverage.readthedocs.org/):
 
   ```sh
   $ flake8
@@ -75,7 +64,7 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
 
   You can run all these commands automatically with `make all`. Run `make help` for more information.
 
-8. Stage the files for the first commit to your repository.
+7. Stage the files for the first commit to your repository.
 
   ```sh
   $ git add .
@@ -83,14 +72,14 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   # To unstage a file, use 'git reset HEAD YOUR-FILE'.
   ```
 
-7. Commit the files that you've staged in your local repository.
+8. Commit the files that you've staged in your local repository.
 
   ```sh
   $ git commit -m 'Your detailed description of your changes.'
   # Commits the tracked changes and prepares them to be pushed to a remote repository.
   ```
 
-8. [Push the changes](https://help.github.com/articles/pushing-to-a-remote/) in your local repository to GitHub.
+9. [Push the changes](https://help.github.com/articles/pushing-to-a-remote/) in your local repository to GitHub.
 
   ```sh
   $ git push origin master  # if you are the repository owner or collaborator
@@ -98,7 +87,7 @@ Here is how to set up the `project_name` [repository](https://help.github.com/ar
   # Pushes the changes in your local repository up to the remote repository
   ```
 
-9. If you are a contributor, submit a [pull request](https://help.github.com/articles/using-pull-requests/) through the GitHub.
+10. If you are a contributor, submit a [pull request](https://help.github.com/articles/using-pull-requests/) through the GitHub.
 
 ## Contributing
 
