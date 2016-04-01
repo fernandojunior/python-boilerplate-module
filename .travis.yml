@@ -32,6 +32,6 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script:
-    - tox -e py-$REQUIREMENTS
+    - tox -e py-$REQUIREMENTS,coverage,lint
 
 # after_success: codecov
