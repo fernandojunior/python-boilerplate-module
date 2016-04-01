@@ -1,6 +1,6 @@
 # python-boilerplate-module
 
-Boilerplate to create a Python module based project. [Clone](https://help.github.com/articles/cloning-a-repository/) or [download](https://github.com/fernandojunior/python-boilerplate-module/archive/master.zip). More information at [@fernandojunior/python-boilerplate](https://github.com/fernandojunior/python-boilerplate).
+Boilerplate to create a Python module based project. More information at [@fernandojunior/python-boilerplate](https://github.com/fernandojunior/python-boilerplate).
 
 ## Features
 *Preconfigured tools to facilitate the project development.*
