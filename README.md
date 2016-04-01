@@ -17,7 +17,7 @@ Boilerplate to create a Python module based project. More information at [@ferna
 ├── LICENSE
 ├── Makefile
 ├── MANIFEST.in
-├── module_name.py -> The core code of the project
+├── module_name.py  # The core code of the project
 ├── README.md
 ├── requirements
 │   ├── dev.txt
