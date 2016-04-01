@@ -1,13 +1,6 @@
 # python-boilerplate-module
 
-A boilerplate to create a Python module based project. [Clone](https://help.github.com/articles/cloning-a-repository/) or [download](https://github.com/fernandojunior/python-boilerplate-module/archive/master.zip). See others [here](https://github.com/fernandojunior/python-boilerplate).
-
-## Table of Contents
-
-* [Features](#features)
-* [Structure](#structure)
-* [Keywords](#keywords)
-* [Glossary](#glossary)
+A boilerplate to create a Python module based project. [Clone](https://help.github.com/articles/cloning-a-repository/) or [download](https://github.com/fernandojunior/python-boilerplate-module/archive/master.zip). More information and others boilerplates at [@fernandojunior/python-boilerplate](https://github.com/fernandojunior/python-boilerplate).
 
 ## Features
 *Preconfigured tools to facilitate the project development.*
@@ -19,14 +12,14 @@ A boilerplate to create a Python module based project. [Clone](https://help.gith
 * [tox](https://tox.readthedocs.org/) - Auto builds and tests distributions in multiple Python versions using virtualenvs.
 
 ## Structure
-*Structure of the project in [tree](http://stackoverflow.com/questions/3455625/linux-command-to-print-directory-structure-in-the-form-of-a-tree) format.*
+*Structure of the project in [tree](http://stackoverflow.com/questions/3455625/linux-command-to-print-directory-structure-in-the-form-of-a-tree) format. More datails [here](https://github.com/fernandojunior/python-boilerplate#structure)*
 
 ```sh
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── Makefile
 ├── MANIFEST.in
-├── module_name.py
+├── module_name.py -> The core code of the project
 ├── README.md
 ├── requirements
 │   ├── dev.txt
@@ -37,20 +30,6 @@ A boilerplate to create a Python module based project. [Clone](https://help.gith
 ├── tests.py
 └── tox.ini
 ```
-
-Below the purpose of each file:
-
-* CONTRIBUTING.md - Details about how project owner would like to receive contributions [reference](https://guides.github.com/activities/contributing-to-open-source/).
-* LICENSE - Informs users and contributors what they can and can't do with the project [reference](https://guides.github.com/activities/contributing-to-open-source/).
-* Makefile - Automates useful commands to use with make, a build automation tool [reference](https://en.wikipedia.org/wiki/Makefile).
-* MANIFEST.in - Adds extra resources in distributions as only modules and packages are included by default [reference](https://pythonhosted.org/setuptools/setuptools.html).
-* module_name.py - The core code of the project.
-* README.md - Details for the project on how to build, install, use and contribute to it [reference](https://guides.github.com/activities/contributing-to-open-source/).
-* requirements* - Contains the dependencies of the project to be installed using pip [reference](https://pip.readthedocs.org/en/stable/user_guide/#requirements-files).
-* setup.cfg - Configures some settings of the tools used in the project [reference](https://docs.python.org/3/distutils/configfile.html).
-* setup.py - Contains information needed to build, release and install distributions [reference](https://pythonhosted.org/setuptools/setuptools.html).
-* tests.py - Provides some automated tests to run with pytest [reference](http://pytest.org/).
-* tox.ini - Defines test environments to run with tox [reference](https://tox.readthedocs.org/en/latest/).
 
 ## Keywords
 *Description of each keyword of the boilerplate.*
