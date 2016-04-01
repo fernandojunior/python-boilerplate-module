@@ -3,6 +3,14 @@
 
 Boilerplate to create a Python module based project. More information at [@fernandojunior/python-boilerplate](https://github.com/fernandojunior/python-boilerplate).
 
+
+  ```python
+  >>> import module_name
+  >>> from module_name import hello_world
+  >>> print(hello_world)
+  Hello World
+  ```
+
 ## Features
 
 * [coverage.py](https://coverage.readthedocs.org/) - Code coverage measurement.
