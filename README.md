@@ -32,7 +32,6 @@ Boilerplate to create a Python module based project. More information at [@ferna
 More datails [here](https://github.com/fernandojunior/python-boilerplate#structure).
 
 ## Keywords
-*Description of each keyword of the boilerplate.*
 
 * author_name - Full name of the author.
 * github_username - GitHub username.
