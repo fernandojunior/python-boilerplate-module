@@ -17,12 +17,12 @@ The awesome project_name project.
 
 ## Usage
 
-  ```python
-  >>> import module_name
-  >>> from module_name import hello_world
-  >>> print(hello_world)
-  Hello World
-  ```
+```python
+>>> import module_name
+>>> from module_name import hello_world
+>>> print(hello_world)
+Hello World
+```
 
 ## Contributing
 
