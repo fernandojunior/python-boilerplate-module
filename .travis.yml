@@ -1,0 +1,37 @@
+# Config file for automatic testing at travis-ci.org
+
+sudo: false
+
+language: python
+
+python:
+  - "2.6"
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+
+env:
+  - REQUIREMENTS=lowest
+  - REQUIREMENTS=release
+  - REQUIREMENTS=devel
+
+matrix:
+  exclude:
+    # Flask: Python 3 support currently does not work with lowest requirements
+    - python: "3.3"
+      env: REQUIREMENTS=lowest
+    - python: "3.4"
+      env: REQUIREMENTS=lowest
+    - python: "3.5"
+      env: REQUIREMENTS=lowest
+
+# command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+install:
+    - pip install tox # codecov
+
+# command to run tests, e.g. python setup.py test
+script:
+    - tox -e py-$REQUIREMENTS
+
+# after_success: codecov
