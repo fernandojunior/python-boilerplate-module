@@ -29,7 +29,7 @@ Boilerplate to create a Python module based project. More information at [@ferna
 └── tox.ini
 ```
 
-More datails [here](https://github.com/fernandojunior/python-boilerplate#structure)*
+More datails [here](https://github.com/fernandojunior/python-boilerplate#structure).
 
 ## Keywords
 *Description of each keyword of the boilerplate.*
