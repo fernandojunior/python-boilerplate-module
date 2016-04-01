@@ -3,7 +3,6 @@
 Boilerplate to create a Python module based project. More information at [@fernandojunior/python-boilerplate](https://github.com/fernandojunior/python-boilerplate).
 
 ## Features
-*Preconfigured tools to facilitate the project development.*
 
 * [coverage.py](https://coverage.readthedocs.org/) - Code coverage measurement.
 * [Flake8](https://flake8.readthedocs.org/) - The modular source code checker: pep8, pyflakes and co.
@@ -12,7 +11,6 @@ Boilerplate to create a Python module based project. More information at [@ferna
 * [tox](https://tox.readthedocs.org/) - Auto builds and tests distributions in multiple Python versions using virtualenvs.
 
 ## Structure
-*Structure of the project in [tree](http://stackoverflow.com/questions/3455625/linux-command-to-print-directory-structure-in-the-form-of-a-tree) format. More datails [here](https://github.com/fernandojunior/python-boilerplate#structure)*
 
 ```sh
 ├── CONTRIBUTING.md
@@ -30,6 +28,8 @@ Boilerplate to create a Python module based project. More information at [@ferna
 ├── tests.py
 └── tox.ini
 ```
+
+More datails [here](https://github.com/fernandojunior/python-boilerplate#structure)*
 
 ## Keywords
 *Description of each keyword of the boilerplate.*
